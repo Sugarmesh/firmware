@@ -56,3 +56,7 @@ CMakeLists.txt
 .python3
 .claude/scheduled_tasks.lock
 userPrefs.jsonc.mcp-session-bak
+
+# keypad temp removed for testing
+TCA8418Keyboard.h
+TCA8418Keyboard.cpp
