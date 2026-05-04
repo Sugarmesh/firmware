@@ -27,7 +27,7 @@ static unsigned char ThumbyKeyMap[THUMBY_NUM_KEYS][3 /*normal, shift, alt*/] = {
     {'r','R','3'},      //r
     {'t','T','('},      //t
     {'y','Y',')'},      //y
-    {UP, 0,0},          //hat up
+    {Key::UP, 0,0},          //hat up
     /*r1*/
     {'u','U','_'},      //u
     {'i','I','-'},      //i
@@ -35,7 +35,7 @@ static unsigned char ThumbyKeyMap[THUMBY_NUM_KEYS][3 /*normal, shift, alt*/] = {
     {'p','P','$'},      //p
     {'a','A','*'},      //a
     {'s','S','4'},      //s
-    {LEFT, 0,0},        //hat left
+    {Key::LEFT, 0,0},        //hat left
     /*r2*/
     {'d','D','5'},      //d
     {'f','F','6'},      //f
@@ -43,28 +43,28 @@ static unsigned char ThumbyKeyMap[THUMBY_NUM_KEYS][3 /*normal, shift, alt*/] = {
     {'h','H',':'},      //h
     {'j','J',';'},      //j
     {'k','K','\\'},     //k
-    {DOWN, 0,0},        //hat down
+    {Key::DOWN, 0,0},        //hat down
     /*r3*/
     {'l','L','"'},      //l
-    {BSP, 0,0},         //del
+    {Key::BSP, 0,0},         //del
     {MOD_ALT, 0,0},     //alt
     {'z','Z','7'},      //z
     {'x','X','8'},      //x
     {'c','C','9'},      //c
-    {RIGHT,0,0},        //hat right
+    {Key::RIGHT,0,0},        //hat right
     /*r4*/
     {'v','V','?'},      //v
     {'b','B','!'},      //b
     {'n','N',','},      //n
     {'m','M','.'},      //m
     {'@', 0,'>'},       //@
-    {SELECT, 0,0},      //enter
-    {SELECT, 0,0},      //hat enter
+    {Key::SELECT, 0,0},      //enter
+    {Key::SELECT, 0,0},      //hat enter
     /*r5*/
     {MOD_SHIFT,0,0},    //shift
     {'0',0,'<'},        //0
     {' ',0,0},          //space
-    {ESC,0,0},          //esc
+    {Key::ESC,0,0},          //esc
     {MOD_SHIFT,0,0},    //shift
     {0,0,0},            //unused
     {0,0,0},            //unused
