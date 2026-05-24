@@ -12,7 +12,8 @@
 #elif defined(HACKADAY_COMMUNICATOR)
 #include "HackadayCommunicatorKeyboard.h"
 #else
-#include "TCA8418Keyboard.h"
+//#include "TCA8418Keyboard.h"
+#include "Thumby.h"
 #endif
 
 extern ScanI2C::DeviceAddress cardkb_found;
@@ -29,7 +30,7 @@ KbI2cBase::KbI2cBase(const char *name)
 #elif defined(HACKADAY_COMMUNICATOR)
       TCAKeyboard(*(new HackadayCommunicatorKeyboard()))
 #else
-      TCAKeyboard(*(new TCA8418Keyboard()))
+      TCAKeyboard(*(new Thumby()))
 #endif
 {
     this->_originName = name;

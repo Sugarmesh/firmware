@@ -209,7 +209,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SSD1306_ADDRESS_H 0x3D // Addr = 1
 
 #if defined(SEEED_WIO_TRACKER_L1) && !defined(SEEED_WIO_TRACKER_L1_EINK)
-#define SSD1306_ADDRESS SSD1306_ADDRESS_H
+#define SSD1306_ADDRESS SSD1306_ADDRESS_L
 #define USE_SH1106
 #endif
 #define ST7567_ADDRESS 0x3F
